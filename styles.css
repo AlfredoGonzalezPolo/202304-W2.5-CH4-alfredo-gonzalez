@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #55056f;
+}
+
+aside {
+  margin: 5px;
+}
+aside .reviews-box {
+  background-color: rgb(216, 203, 203);
+  border-radius: 5%;
+}
+
+main {
+  margin: 5px;
+}
+main .costumer-container {
+  background-color: #5d0978;
+  border-radius: 5%;
+  margin: 15px auto;
+  padding: 5px;
+}
+main .costumer-container p {
+  color: white;
+}
+main .costumer-container img {
+  border-radius: 100%;
+}
+main .costumer-container header {
+  display: flex;
+  flex-direction: row;
+}
+main .costumer-container header h2 {
+  color: white;
+  font-size: 1.25rem;
+}
+main .costumer-container header span {
+  color: #a03497;
+  font-size: 1rem;
+}
+main .costumer-container .customers-data {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=styles.css.map */

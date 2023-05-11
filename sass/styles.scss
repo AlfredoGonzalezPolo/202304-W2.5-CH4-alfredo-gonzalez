@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: 15px auto;
 }
 
 h1 {
@@ -17,20 +18,47 @@ h1 {
   color: #55056f;
 }
 
-.reviews-box {
-  background-color: rgb(216, 203, 203);
-  border-radius: 5%;
-}
+aside {
+  margin: 5px;
 
-.costumer-container {
-  background-color: #5d0978;
-  border-radius: 5%;
-
-  p {
-    color: white;
+  .reviews-box {
+    background-color: rgb(216, 203, 203);
+    border-radius: 5%;
   }
+}
+main {
+  margin: 5px;
 
-  img {
-    border-radius: 100%;
+  .costumer-container {
+    background-color: #5d0978;
+    border-radius: 5%;
+    margin: 15px auto;
+    padding: 5px;
+
+    p {
+      color: white;
+    }
+
+    img {
+      border-radius: 100%;
+    }
+
+    header {
+      display: flex;
+      flex-direction: row;
+
+      h2 {
+        color: white;
+        font-size: 1.25rem;
+      }
+      span {
+        color: #a03497;
+        font-size: 1rem;
+      }
+    }
+    .customers-data {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
