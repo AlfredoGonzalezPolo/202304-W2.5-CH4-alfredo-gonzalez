@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #55056f;
+}
+
+.reviews-box {
+  background-color: rgb(216, 203, 203);
+  border-radius: 5%;
+}
+
+.costumer-container {
+  background-color: #5d0978;
+  border-radius: 5%;
+
+  p {
+    color: white;
+  }
+
+  img {
+    border-radius: 100%;
+  }
+}
